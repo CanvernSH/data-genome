@@ -10,7 +10,7 @@ output_file = "simplified_sample_500.tsv"
 sample_size = 500
 
 # Columns to keep
-columns_to_keep = ["#CHROM", "POS", "ID", "REF"]
+columns_to_keep = ["#CHROM", "POS", "ID", "REF", "ALT"]
 
 reservoir = []
 header_indices = {}
